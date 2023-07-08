@@ -1,3 +1,64 @@
+#semáforo__contenedor {
+    background-color: rgb(93, 95, 102);
+    height: 24rem;
+    width: 11rem;
+    padding: 1rem;
+    margin: 1rem auto;
+}
+
+#rojo {
+    background-color: rgb(158, 13, 13);
+    color: rgb(158, 13, 13);
+    font-size: 4rem;
+    margin: 1rem;
+    border-radius: 80%;
+}
+
+.rojoBright {
+    background-color: rgb(254, 42, 42);
+    color: red;
+    -webkit-box-shadow:0px 0px 70px 26px rgba(193,247,231,0.86);
+    -moz-box-shadow: 0px 0px 70px 26px rgba(193,247,231,0.86);
+    box-shadow: 0px 0px 70px 26px rgba(193,247,231,0.86);
+    transition-duration: 3s;
+}
+
+#amarillo {
+    background-color: rgb(153, 153, 17);
+    color:  rgb(153, 153, 17);
+    font-size: 4rem;
+    margin: 1rem;
+    border-radius: 80%;
+}
+
+.amarilloBright {
+    background-color: yellow;
+    color: yellow;
+    transition-delay: 0.2s;
+    -webkit-box-shadow:0px 0px 70px 26px rgba(193,247,231,0.86);
+    -moz-box-shadow: 0px 0px 70px 26px rgba(193,247,231,0.86);
+    box-shadow: 0px 0px 70px 26px rgba(193,247,231,0.86);
+}
+
+#verde {
+    background-color: rgb(11, 82, 11);
+    color: rgb(11, 82, 11);
+    transition-delay: 0.2s;
+    font-size: 4rem;
+    margin: 1rem;
+    border-radius: 80%;
+
+}
+
+.verdeBright {
+    background-color: rgb(7, 151, 7);
+    color: rgb(7, 151, 7);
+    transition-delay: 0.2s;
+    -webkit-box-shadow:0px 0px 70px 26px rgba(193,247,231,0.86);
+    -moz-box-shadow: 0px 0px 70px 26px rgba(193,247,231,0.86);
+    box-shadow: 0px 0px 70px 26px rgba(193,247,231,0.86);
+
+}
 
 /* 
 

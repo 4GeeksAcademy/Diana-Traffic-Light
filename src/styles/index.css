@@ -1,73 +1,32 @@
-#semáforo__contenedor {
-    background-color: rgb(93, 95, 102);
-    height: 24rem;
-    width: 11rem;
-    padding: 1rem;
+.traffic-light {
+    border: solid;
+    width: 10rem;
     margin: 1rem auto;
+    padding: 1rem;
+    background-color: black;
 }
 
-#rojo {
-    background-color: rgb(158, 13, 13);
-    color: rgb(158, 13, 13);
-    font-size: 4rem;
-    margin: 1rem;
-    border-radius: 80%;
+.light {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    margin: 0.5rem auto;
 }
 
-.rojoBright {
-    background-color: rgb(254, 42, 42);
-    color: red;
-    -webkit-box-shadow:0px 0px 70px 26px rgba(193,247,231,0.86);
-    -moz-box-shadow: 0px 0px 70px 26px rgba(193,247,231,0.86);
-    box-shadow: 0px 0px 70px 26px rgba(193,247,231,0.86);
-    transition-duration: 3s;
+.red {
+    background-color: red;
 }
 
-#amarillo {
-    background-color: rgb(153, 153, 17);
-    color:  rgb(153, 153, 17);
-    font-size: 4rem;
-    margin: 1rem;
-    border-radius: 80%;
-}
-
-.amarilloBright {
+.yellow {
     background-color: yellow;
-    color: yellow;
-    transition-delay: 0.2s;
+}
+
+.green {
+    background-color: green;
+}
+
+.selected {
     -webkit-box-shadow:0px 0px 70px 26px rgba(193,247,231,0.86);
     -moz-box-shadow: 0px 0px 70px 26px rgba(193,247,231,0.86);
     box-shadow: 0px 0px 70px 26px rgba(193,247,231,0.86);
 }
-
-#verde {
-    background-color: rgb(11, 82, 11);
-    color: rgb(11, 82, 11);
-    transition-delay: 0.2s;
-    font-size: 4rem;
-    margin: 1rem;
-    border-radius: 80%;
-
-}
-
-.verdeBright {
-    background-color: rgb(7, 151, 7);
-    color: rgb(7, 151, 7);
-    transition-delay: 0.2s;
-    -webkit-box-shadow:0px 0px 70px 26px rgba(193,247,231,0.86);
-    -moz-box-shadow: 0px 0px 70px 26px rgba(193,247,231,0.86);
-    box-shadow: 0px 0px 70px 26px rgba(193,247,231,0.86);
-
-}
-
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
